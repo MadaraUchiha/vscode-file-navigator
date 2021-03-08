@@ -1,4 +1,4 @@
-# file-navigator README
+# file-navigator
 
 File Navigator is a VSCode extension that enables simple file navigation through the VSCode menus.
 

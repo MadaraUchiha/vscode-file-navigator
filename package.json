@@ -3,6 +3,7 @@
   "displayName": "file-navigator",
   "description": "Creates a shortcut to quickly navigate the current folder and project folder tree",
   "version": "1.0.0",
+  "repository": "https://github.com/MadaraUchiha/vscode-file-navigator",
   "engines": {
     "vscode": "^1.54.0"
   },
