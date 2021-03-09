@@ -12,6 +12,12 @@ File Navigator is a VSCode extension that enables simple file navigation through
 
 ## Release Notes
 
+See [CHANGELOG.md](CHANGELOG.md) for more details.
+
 ### 1.0.0
 
 Initial release of file-navigator
+
+### 1.0.2
+
+UI improvements and Create Folder
