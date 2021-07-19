@@ -104,12 +104,12 @@ async function directoryListingAt(
         `${item.isDirectory() ? DIRECTORY_PREFIX : FILE_PREFIX}${item.name}`
     );
 
-  const result = await withCallback([
-    "..",
-    ...fileDisplayNames,
-    "Create Folder",
-    "Create File",
-  ]);
+  const result = await withCallback(
+    ["..", ...fileDisplayNames, "Create Folder", "Create File"],
+    {
+      placeholder: dirPath,
+    }
+  );
 
   switch (result) {
     case "..":
