@@ -21,3 +21,7 @@ Initial release of file-navigator
 ### 1.0.2
 
 UI improvements and Create Folder
+
+### 1.1.0
+
+Add placeholder to picker. Thanks @kav137

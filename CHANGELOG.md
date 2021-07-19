@@ -10,3 +10,7 @@ All notable changes to the "file-navigator" extension will be documented in this
 
 - Add emoji to differentiate folders from files
 - Add ability to create folders
+
+## [v1.1.0]
+
+- Add placeholder to picker. Thanks @kav137
