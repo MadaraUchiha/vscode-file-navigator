@@ -14,3 +14,7 @@ All notable changes to the "file-navigator" extension will be documented in this
 ## [v1.1.0]
 
 - Add placeholder to picker. Thanks @kav137
+
+## [v1.1.1]
+
+- Fix bug where placeholder sometimes wouldn't appear

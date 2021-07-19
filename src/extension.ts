@@ -107,8 +107,8 @@ async function directoryListingAt(
   const result = await withCallback(
     ["..", ...fileDisplayNames, "Create Folder", "Create File"],
     {
-      placeholder: dirPath,
-    } as vscode.QuickPickOptions
+      placeHolder: dirPath,
+    }
   );
 
   switch (result) {

@@ -25,3 +25,7 @@ UI improvements and Create Folder
 ### 1.1.0
 
 Add placeholder to picker. Thanks @kav137
+
+### 1.1.1
+
+Fix bug where placeholder would sometimes not appear
