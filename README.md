@@ -1,14 +1,17 @@
 # file-navigator
 
-File Navigator is a VSCode extension that enables simple file navigation through the VSCode menus.
+File Navigator is a VSCode extension which enables simple file navigation through the VSCode menus, relative to the currently open file.
 
 ## Features
 
-![demo](assets/file-navigator-demo.gif)
+- Single command: open from the context menu or with the default key binding, `CTRL+L` (`CMD+L` on Mac)
+- Fuzzy search files in the directory listing
+- Select `..` to go to parent directory
+- Great for navigating to hidden files and directories such as `.git/` and `node_modules/`
 
-- Single command, open from the context menu or with the default keybind, `CTRL+L` (`CMD+L` on Mac)
-- Intuitively search for files out of the directory listing
-- Select `..` to go up one folder
+## Demo
+
+![demo](assets/file-navigator-demo.gif)
 
 ## Release Notes
 
