@@ -2,7 +2,7 @@
   "name": "file-navigator",
   "displayName": "file-navigator",
   "description": "Creates a shortcut to quickly navigate the current folder and project folder tree",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": "https://github.com/MadaraUchiha/vscode-file-navigator",
   "engines": {
     "vscode": "^1.54.0"
@@ -39,16 +39,17 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.54.0",
     "@types/glob": "^7.1.3",
     "@types/mocha": "^8.0.4",
     "@types/node": "^12.11.7",
-    "eslint": "^7.19.0",
+    "@types/vscode": "^1.54.0",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.19.0",
     "glob": "^7.1.6",
     "mocha": "^8.2.1",
     "typescript": "^4.1.3",
+    "vsce": "^2.10.2",
     "vscode-test": "^1.5.0"
   }
 }

@@ -18,3 +18,7 @@ All notable changes to the "file-navigator" extension will be documented in this
 ## [v1.1.1]
 
 - Fix bug where placeholder sometimes wouldn't appear
+
+## [v1.1.2]
+
+- Rename "Create File" to "Create File (New)" [#4](https://github.com/MadaraUchiha/vscode-file-navigator/pull/4) - Thanks @wildeyes

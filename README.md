@@ -32,3 +32,7 @@ Add placeholder to picker. Thanks @kav137
 ### 1.1.1
 
 Fix bug where placeholder would sometimes not appear
+
+## v1.1.2
+
+- Rename "Create File" to "Create File (New)" [#4](https://github.com/MadaraUchiha/vscode-file-navigator/pull/4) - Thanks @wildeyes
