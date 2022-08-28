@@ -105,7 +105,7 @@ async function directoryListingAt(
     );
 
   const result = await withCallback(
-    ["..", ...fileDisplayNames, "Create Folder", "Create File"],
+    ["..", ...fileDisplayNames, "Create Folder", "Create File (New)"],
     {
       placeHolder: dirPath,
     }
