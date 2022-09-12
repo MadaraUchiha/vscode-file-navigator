@@ -22,3 +22,7 @@ All notable changes to the "file-navigator" extension will be documented in this
 ## [v1.1.2]
 
 - Rename "Create File" to "Create File (New)" [#4](https://github.com/MadaraUchiha/vscode-file-navigator/pull/4) - Thanks @wildeyes
+
+## [v1.2.0]
+
+- Fix bug where Create File would not work.

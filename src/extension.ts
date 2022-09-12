@@ -84,6 +84,11 @@ async function getDirname(pathToFileOrDir: string) {
   return path.dirname(pathToFileOrDir);
 }
 
+enum Operation {
+  createFolder = "Create Folder",
+  createFile = "Create File (New)",
+}
+
 async function directoryListingAt(
   pathToFile: string,
   withCallback = vscode.window.showQuickPick
@@ -105,7 +110,7 @@ async function directoryListingAt(
     );
 
   const result = await withCallback(
-    ["..", ...fileDisplayNames, "Create Folder", "Create File (New)"],
+    ["..", ...fileDisplayNames, Operation.createFolder, Operation.createFile],
     {
       placeHolder: dirPath,
     }
@@ -117,9 +122,9 @@ async function directoryListingAt(
         path.resolve(dirPath, ".."),
         withCallback
       );
-    case "Create File":
+    case Operation.createFile:
       return { type: ActionType.createFile, atPath: dirPath };
-    case "Create Folder":
+    case Operation.createFolder:
       return { type: ActionType.createFolder, atPath: dirPath };
     case undefined:
       return { type: ActionType.abort, atPath: "" };
